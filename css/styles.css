@@ -4,10 +4,36 @@
     box-sizing: border-box;
 }  
 .nav{ 
-    display: inline-flex;
+
 } 
 section{  
     display: inline-flex; 
     float: inline-end; 
-}
 
+}
+b{
+    color: red;
+}
+.myBanner{
+    width: 100%;
+    min-height: 550px;
+    max-height: 650px;
+    background-image: url(../img/1e6974763c72dc62bc4195b88167f0a5.gif); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    text-align: right; 
+    
+}
+.myBanner h2 { 
+    margin-top: 3%;
+    font-size: 15vh;
+    text-transform: uppercase;
+    font-weight: bold; 
+    color: rgb(255, 255, 255); 
+    text-shadow:rgb(0, 0, 0) 5px 5px;
+} 
+
+.myBanner p{
+    font-size: 30px;
+    font-style: italic;
+}
