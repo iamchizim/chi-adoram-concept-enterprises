@@ -2,18 +2,8 @@
     margin: 0; 
     padding: 0; 
     box-sizing: border-box;
-}  
-.nav{ 
-
-} 
-section{  
-    display: inline-flex; 
-    float: inline-end; 
-
 }
-b{
-    color: red;
-}
+
 .myBanner{
     width: 100%;
     min-height: 550px;
@@ -35,5 +25,20 @@ b{
 
 .myBanner p{
     font-size: 30px;
-    font-style: italic;
+    font-style: italic; 
+    color: tomato;
+} 
+.head ul li a { 
+    color:rgb(255, 251, 0); 
+    font-size: larger; 
+    font-family: Arial, Helvetica, sans-serif;
+}  
+.head ul li a:hover{
+    width: 100%;
+    height: 40px; 
+    background-repeat: no-repeat;
+    background-image: url(../img/brush2.jpg) 
+    
+
+    
 }
